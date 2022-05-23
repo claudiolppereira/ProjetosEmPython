@@ -1,0 +1,7 @@
+dado = input('Digite algo: ')
+print(type(dado))
+print('A informação {} é do tipo alfa numérico? {}'.format(dado, dado.isalnum()))
+print('A informação {} é do tipo número? {}'.format(dado, dado.isnumeric()))
+print('A informação {} é do tipo alpha? {}'.format(dado, dado.isalpha()))
+print('A informação {} está tudo maiúscula? {}'.format(dado, dado.isupper()))
+print('A informação {} é do tipo ´titulo? {}'.format(dado, dado.istitle()))
